@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+section, article, nav, aside, header, footer, main {
+  display: block;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(245, 182, 182);
+  padding: 10px;
+}
+
+h1, h2 {
+  margin: 5px;
+  color: rgb(34, 34, 34);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 0.1em;
+}
+
+main {
+  border: 2px dotted rgb(32, 27, 27);
+  margin: 20px;
+  margin-bottom: 5em;
+}
+
+div {
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 50em;
+  padding: 10px;
+  margin: 10px;
+}
+
+div.relative_pos {
+  position: relative;
+  top: 1em;
+  left: 1em;
+  background-color: rgb(142, 229, 255);
+  border: 1px solid rgb(243, 15, 15);
+}
+
+div.absolute_pos {
+  position: absolute;
+  top: 0;
+  left: 1em;
+  background-color: rgb(255, 142, 255);
+  border: 1px solid rgb(44, 29, 78);
+}
+
+div.container {
+  position: relative;
+  width: 60em;
+  background-color: rgb(177, 255, 158);
+}
+
+div.shit {
+  background-color: #fff;
+}
+
+div.fixed_pos {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10%;
+  background-color: rgb(247, 170, 70);
+  margin: 0;
+  border-radius: 0;
+}
+
+div.suka {
+  position: relative;
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 0;
+  background-color: rgb(255, 0, 0);
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+div.blyat {
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  left: 25%;
+  right: 25%;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(226, 144, 144);
+  border-radius: 0;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}

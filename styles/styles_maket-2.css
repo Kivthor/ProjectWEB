@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+section, article, nav, aside, header, footer, main {
+  display: block;
+}
+
+body {
+  margin: 0;
+}  
+
+header.main-header {
+  border: 1px solid black;
+}
+
+div.logo-and-title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  background-color: red;
+}
+
+nav.navbar {
+  padding: 1em 0;
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+ul.navbar__links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.navbar__links li a {
+  display: block;
+  text-decoration: none;
+  padding: .5em;
+  border: 1px solid blue;
+  border-radius: .5em;
+  margin: 0 1em;
+  background-color: #fff;
+}
+
+div.main-container {
+  position: relative;
+  border: 1px solid green;
+}
+
+aside {
+  border: 1px solid black;
+  margin: 1em;
+}
+
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(43, 184, 66);
+  margin: 1em;
+}
+
+div.block {
+  border: 1px solid black;
+  margin: 1em;
+  
+}
+
+.block-1 {
+  background-color: rgb(17, 109, 5);
+}
+
+.block-2 {
+  background-color: rgb(26, 158, 9);
+}
+
+.block-3 {
+  background-color: rgb(105, 230, 89);
+}
+
+footer.main-footer {
+  background-color: rgb(56, 56, 56);
+  padding: 1em;
+}
+
+footer.main-footer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer.main-footer div p {
+  margin: 1rem;
+  width: 300px;
+  border: 1px solid white;
+  color: white;
+}
