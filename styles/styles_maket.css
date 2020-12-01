@@ -144,6 +144,7 @@ div.column {
 
 div.column p {
   text-align: justify;
+  outline: 1px solid green;
 }
 
 figure {
@@ -156,6 +157,11 @@ figcaption {
   margin: 1em;
   text-align: center;
   font-weight: bold;
+}
+
+figure img {
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: .5em;
 }
 
 footer.main-footer {
