@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-color: hsl(214, 28%, 76%);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+header {
+    border: 1px solid hsl(0, 0%, 50%);
+    margin: 20px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    border: 1px solid hsl(0, 87%, 50%);
+}
+
+nav {
+    border: 1px solid hsl(246, 100%, 50%);
+
+}
+
+nav.toc ul {
+    border: 1px solid hsl(113, 85%, 51%);
+}
+
+nav.toc li {
+    border: 1px solid hsl(286, 87%, 50%);
+
+}
+
+div.block1 {
+    border: 1px solid hsl(0, 0%, 50%);
+    margin: 20px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+    overflow: auto;
+}
+
+h2 {
+    border: 1px solid hsl(0, 87%, 50%);
+}
+
+div.block1 div {
+    max-width: 340px;
+    min-width: 240px;
+    margin: 15px;
+    padding: inherit;
+    border: inherit;
+}
+
+div.sublock1 {
+    float: left;
+    width: 350px;
+    background-color: hsl(0, 100%, 95%);
+}
+
+div.sublock2 {
+    float: left;
+    width: 350px;
+    background-color: hsl(0, 100%, 85%);
+
+}
+
+div.sublock3 {
+    float: left;
+    width: 350px;
+    padding: 10px;
+    background-color: hsl(0, 100%, 75%);
+}
+
+div.sublock4 {
+    float: left;
+    width: 350px;
+    background-color: hsl(204, 100%, 95%);
+}
+
+div.sublock5 {
+    float: left;
+    width: 350px;
+    background-color: hsl(204, 100%, 85%);
+    clear: both;
+}
+
+div.sublock6 {
+    float: left;
+    width: 350px;
+    background-color: hsl(204, 100%, 75%);
+}
+
+h3 {
+    border: 1px solid hsl(0, 0%, 3%);
+    margin: 10px;
+}
+
+footer {
+    border: 1px solid hsl(224, 83%, 50%);
+    margin: 20px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+p {
+    border: 1px solid black;
+    padding: 15px;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+	<meta charset="utf-8">
+	<title>CSS-book</title>
+	<link rel="stylesheet" type="text/css" href="styles/cssbook-text.css" />
+</head>
+<body>
+	<header class="shapka">
+		<h1 class="header-css"><a href="cssbook-text.html">CSS учебник</a></h1>
+	</header>
+	<nav class="table-of-contents">
+		<ul class="table-of-contents">
+			<li><a href="#t1">Текст и гарнитура шрифта</a></li>
+			<li><a href="#t2">Полужирный</a></li>
+			<li><a href="#t3">Курсивный</a></li>
+			<li><a href="#t4">Наклонный</a></li>
+			<li><a href="#t5">Прописные и строчные</a></li>
+			<li><a href="#t6">Подчеркивание, перечеркивание и другое форматирование</a></li>
+			<li><a href="#t7">Интервалы в тексте</a></li>
+			<li><a href="#t8">Выравнивание текста</a></li>
+			<li><a href="#t9">Текст с тенью</a></li>
+			<li><a href="#t10">Псевдоэлементы и псевдоклассы CSS для работы с текстом</a></li>
+		</ul>
+	</nav>
+	<div class="block">
+		<h2>Текст и гарнитура шрифта</h2>
+		<div class="sublock" id="t1">
+			<h3>Размер текста</h3>
+			<p>По умолчанию размер текста равен <span class="css-zn">16px</span> или <span class="css-zn">1em</span>.</p>
+			<p>Используется свойство <span class="css-sv">font-size</span>.</p>
+			<img src="images/fonts.png" alt="шрифты" width="600" height="329">
+		</div>
+		<div class="sublock" id="t2">
+			<h3>Полужирный</h3>
+			<p>Полужирный текст создается правилом - <span class="css-sv">font-weight:</span> <span class="css-zn">bold</span><br>Пример:</p>
+			<p class="font-zhir">Rerum ullam sit, voluptatibus unde laborum quod. Fugit distinctio mollitia fugiat blanditiis. Beatae, quos nemo enim assumenda reprehenderit reiciendis quidem aliquam eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+		</div>
+		<div class="sublock" id="t3">
+			<h3>Курсивный</h3>
+			<p>Текст курсивом создается правилом - <span class="css-sv">font-style:</span> <span class="css-zn">italic</span><br>Пример:</p>
+			<p class="font-kurs">Delectus reiciendis saepe blanditiis doloremque iste vel? Id neque cupiditate quia sapiente quos excepturi repudiandae placeat deserunt blanditiis quam, at explicabo?</p>
+		</div>
+		<div class="sublock" id="t4">
+			<h3>Наклонный</h3>
+			<p>Наклонный шрифт - <span class="css-sv">font-style:</span> <span class="css-zn">oblique</span><br>Пример:</p>
+			<p class="font-nakl">Delectus reiciendis saepe blanditiis doloremque iste vel? Id neque cupiditate quia sapiente quos excepturi repudiandae placeat deserunt blanditiis quam, at explicabo?</p>
+		</div>
+		<div class="sublock" id="t5">
+			<h3>Прописные и строчные</h3>
+			<p>Прописные и строчные символы используют следующие свойства:</p>
+			<p>Прописные - <span class="css-sv">text-transform:</span> <span class="css-zn">uppercase</span></p>
+			<p class="font-prop">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis quam iusto incidunt ex aspernatur asperiores corrupti cupiditate a dolor, magnam dolore ullam dolorem. Nobis aliquam molestias consequuntur? Non, exercitationem fugit.</p>
+			<p>Строчные - <span class="css-sv">text-transform:</span> <span class="css-zn">lowercase</span></p>
+			<p class="font-str">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, temporibus sed accusamus autem aperiam repellat explicabo quod repudiandae soluta similique alias consequatur at, ipsum amet quis sequi voluptatibus recusandae aut?</p>
+			<p>Новое слово с большой буквы - <span class="css-sv">text-transform:</span> <span class="css-zn">capitalize</span></p>
+			<p class="font-cap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nisi consequuntur placeat est excepturi, quasi incidunt aliquid deleniti ullam quae necessitatibus, modi labore magni atque, hic exercitationem mollitia eaque ratione.</p>
+		</div>
+		<div class="sublock" id="t6">
+			<h3>Подчеркивание, перечеркивание и другое форматирование</h3>
+			<p>Используется свойство <span class="css-sv">text-decoration:</span>, которое принимает следующие значения:</p>
+			<p><span class="css-sv">text-decoration:</span> <span class="css-zn">underline</span> - добавляет линию под текстом
+			<p class="text-un">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dicta sapiente commodi vitae magnam voluptate deleniti dolore dolorum voluptatem non provident quo iste tempora repellat enim ullam animi! Incidunt, accusantium?</p>
+			<p><span class="css-sv">text-decoration:</span> <span class="css-zn">overline</span> - добавляет линию над текстом
+			<p class="text-ov">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis dolore sint enim. Itaque labore minima eos sequi beatae, fugit odio nihil autem modi amet dicta mollitia ab doloribus dignissimos?</p>
+			<p><span class="css-sv">text-decoration:</span> <span class="css-zn">line-through</span> - линия проходит сквозь текст
+			<p class="text-thr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minima fuga maxime laboriosam? Aliquid tempore repellat ipsa corporis? Tenetur nesciunt quidem accusamus rerum exercitationem delectus rem consequatur earum, assumenda at.</p>
+			<p><span class="css-sv">text-decoration:</span> <span class="css-zn">none</span> - убирает любое оформление текста, которое было раньше
+			<p class="text-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minima fuga maxime laboriosam? Aliquid tempore repellat ipsa corporis? Tenetur nesciunt quidem accusamus rerum exercitationem delectus rem consequatur earum, assumenda at.</p>
+		</div>
+		<div class="sublock" id="t7">
+			<h3>Интервалы в тексте</h3>
+			<p>Межстрочный интервал измеряется от нижней части нижнего выносного элемента на одной строке до верхней части верхнего выносного элемента на следующей строке:</p>
+			<img src="images/interval.png" alt="интервал" width="335" height="179">
+			<p>Свойство CSS <span class="css-sv">line-height</span> устанавливает высоту всей строки текста, поэтому разница между размером шрифта и высотой строки соответствует межстрочному интервалу. Значение лучше указывать в <span class="css-zn">em</span> чем в пикселях, чтобы интервал соотносился с размером текста, выбранным юзером.</p>
+			<p>Хорошим начальным значением является <span class="css-zn">1.4-1.5em</span>.</p>
+			<p>Пример текста с <span class="css-sv">line-height:</span> <span class="css-zn">1.5em</span>:</p>
+			<p class="text-line-height1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolore dolorum, ut quibusdam delectus ducimus! Unde nihil at magnam nobis ipsa fuga quod odit vero? Animi dolore est velit eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto provident, illum, sint, distinctio magnam sapiente ab rem repellat molestias laboriosam ducimus totam cupiditate? Accusamus delectus tempora placeat expedita soluta!</p>
+			<p>Пример текста с <span class="css-sv">line-height:</span> <span class="css-zn">1.8em</span>:</p>
+			<p class="text-line-height2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolore dolorum, ut quibusdam delectus ducimus! Unde nihil at magnam nobis ipsa fuga quod odit vero? Animi dolore est velit eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto provident, illum, sint, distinctio magnam sapiente ab rem repellat molestias laboriosam ducimus totam cupiditate? Accusamus delectus tempora placeat expedita soluta!</p>
+			<p>Интервал между буквами - <span class="css-sv">letter-spacing</span> и интервал между словами - <span class="css-sv">word-spacing</span>.</p>
+		</div>
+		<div class="sublock" id="t8">
+			<h3>Выравнивание текста</h3>
+			<p><span class="css-sv">text-aligh:</span> <span class="css-zn">left</span> - выравнивает текст по левому краяю</p>
+			<p><span class="css-sv">text-aligh:</span> <span class="css-zn">right</span> - выравнивает текст по правому краяю</p>
+			<p><span class="css-sv">text-aligh:</span> <span class="css-zn">center</span> - выравнивает текст по центру</p>
+			<p><span class="css-sv">text-aligh:</span> <span class="css-zn">justify</span> - выравнивает каждую строку текста кроме последней по всей ширине поля</p>
+			<p>Свойство <span class="css-sv">vertical-align</span> используется для вертикального выравнивания текста со встроенными элементами, а так же в таблицах.</p>
+			<p><img src="images/tlen.jpg" alt="" width="300" height="184" class="text-vert-ali"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p>Свойство <span class="css-sv">text-indent</span> создает отступ для первой строки текста внутри элемента.</p>
+			<p class="text-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, corrupti nobis ipsam perspiciatis praesentium accusamus maiores eaque, laboriosam, amet cupiditate nam soluta dolor accusantium voluptatibus deleniti repudiandae sed aspernatur omnis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt excepturi ut eaque fugiat aliquid nihil temporibus itaque quia voluptates repellat obcaecati facere dolorem non harum blanditiis iusto, eius qui totam!</p>
+		</div>
+		<div class="sublock" id="t9">
+			<h3>Текст с тенью</h3>
+			<p>Используется свойство <span class="css-sv">text-shadow</span></p>
+			<p>Значение состоит из трех длин и цвета тени</p>
+			<ul>
+				<li>1 значение указывает насколько далеко влево или вправо должна падать тень.</li>
+				<li>2 значение указывает на какое расстояние вверх или вниз должна смещаться тень.</li>
+				<li>3 значение необязательно и определяет степерь размытия тени.</li>
+			</ul>
+			<p class="text-sh1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam deleniti non suscipit nemo, animi assumenda quia facere reprehenderit temporibus officia enim praesentium possimus voluptates repudiandae, incidunt accusantium inventore doloremque ea.</p>
+			<p class="text-sh2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam deleniti non suscipit nemo, animi assumenda quia facere reprehenderit temporibus officia enim praesentium possimus voluptates repudiandae, incidunt accusantium inventore doloremque ea.</p>
+		</div>
+		<div class="sublock" id="t10">
+			<h3>Псевдоэлементы и псевдоклассы CSS для работы с текстом</h3>
+			<p>С помощью псевдоэлементов <span class="css-ps">:first-letter</span> и <span class="css-ps">:first-line</span> можно задать различные значения первой букве или первой строке текста внутри элемента.</p>
+			<p class="ps-ex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quisquam quidem officia esse porro corporis atque error culpa quod eum eos, quo laudantium fugit totam quaerat mollitia asperiores in sit?</p>
+			<p>Для применения стилий к ссылкам (и не только) можно использовать следующие псевдоклассы:</p>
+			<ul>
+				<li><span class="css-ps">:link</span> - применяет стиль к еще не посещенной ссылке</li>
+				<li><span class="css-ps">:visited</span> - уже посещенной</li>
+				<li><span class="css-ps">:hover</span> - при наведении указателя мыши</li>
+				<li><span class="css-ps">:focus</span> - при наведения фокуса</li>
+				<li><span class="css-ps">:active</span> - при щелчке мышью или нажатия клавиши</li>
+			</ul> (использовать именно в таком порядке)
+		</div>
+	</div>
+</body>
+</html>

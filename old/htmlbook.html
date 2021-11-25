@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+	<meta charset="utf-8">
+	<meta name="keywords" content="первый, сайт, сам, лол">
+	<meta name="description" content="набросок">
+	<meta name="robots" content="nofollow">
+	<title>HTML-book</title>
+	<link rel="stylesheet" type="text/css" href="styles/htmlbook.css">
+</head>
+<body>
+	<header>
+		<h1 class="header-html"><a href="htmlbook.html">HTML учебник</a></h1>
+	</header>
+	<div class="table-of-contents"> <!--СОДЕРЖАНИЕ-->
+		<h2>Содержание</h2>
+		<ul class="table-of-contents">
+			<li><a href="#g1">Вступление</a></li>
+			<li><a href="#g2">Списки</a></li>
+			<li><a href="#g3">Форматирование текста</a></li>
+			<li><a href="#g4">Ссылки и изображения</a></li>
+			<li><a href="#g5">Таблицы</a></li>
+			<li><a href="#g6">Формы</a></li>
+			<li><a href="#g7">Видео и аудио</a></li>
+		</ul>
+	</div>
+	<div id="g1" class="introduction"> <!--главный блок для раздела ВСТУПЛЕНИЕ-->
+		<h2>Вступление</h2>
+		<div class="sub-blocks">
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit voluptate illo rerum quaerat corrupti exercitationem esse laborum? Optio consequatur eius quidem placeat dolores laborum ducimus, iure iste quam unde labore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aut esse ex, possimus, officia ea molestiae commodi consequuntur facere, dolorum ipsam odio. Nostrum officiis nobis rem fuga! Est, rerum cum.</p>
+		</div>
+	</div>
+	<div id="g2" class="main-blocks"> <!--главный блок для раздела СПИСКИ-->
+		<h2 >Списки</h2>
+		<div class="sub-blocks">
+			<h3>Неупорядоченный список</h3>
+			<ul>
+				<li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+				<li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+				<li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+				<li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+			</ul>
+		</div>
+		<div class="sub-blocks">
+			<h3>Упорядоченный список</h3>
+			<ol start="1">
+				<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+				<li>Aliquam tincidunt mauris eu risus.</li>
+				<li>Vestibulum auctor dapibus neque.</li>
+			</ol>
+		</div>
+		<div class="sub-blocks">
+			<h3>Многоуровневый список</h3>
+			<ul>
+				<li>one:
+					<ol>
+						<li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+						<li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+						<li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+						<li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+					</ol>
+				</li>
+				<li>two:
+					<ul>
+						<li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+						<li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+						<li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+						<li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+					</ul>
+				</li>
+				<li>three:
+					<ol>
+						<li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+						<li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+						<li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+						<li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+					</ol>
+				</li>
+				<li>four:
+					<ul>
+						<li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+						<li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+						<li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+						<li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="sub-blocks">
+			<h3>Список определний</h3>
+			<dl>
+				<dt>Термин</dt>
+					<dd>Определение Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
+				<dt>Термин</dt>
+					<dd>Определение adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
+			</dl>
+		</div>
+	</div>
+	<div id="g3" class="main-blocks"> <!--главный блок для раздела ФОРМАТИРОВАНИЕ ТЕКСТА-->
+		<h2>Форматирование текста</h2>
+		<div class="sub-blocks">
+			<h3>Важность текста</h3>
+			<p><strong>Текст с важной информацией</strong></p>
+			<p><b>Просто выделеный текст (полужирный шрифт)</b></p>
+		</div>
+		<div class="sub-blocks">
+			<h3>Акцент внимания</h3>
+			<p><em>Текст с особым акцентом(логическое ударение)</em></p>
+			<p><i>Просто текст который отличается(названия, термины)(курсив)</i></p>
+		</div>
+		<div class="sub-blocks">
+			<h3>Цитаты</h3>
+			<blockquote cite="https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D1%82%D0%B0%D1%82%D0%B0">
+				Для выделения длинных цитат, которые могут состоять из нескольких абзацев. Выделяет цитату как отдельный блок текста с отступами.
+			</blockquote>
+			<q>Короткие цитаты в предложениях</q>. <br />
+			<cite>Источник цитаты, название произведения или автора статьи</cite>.
+		</div>
+		<div class="sub-blocks">
+			<h3>Аббревиатуры</h3>
+			<p><abbr title="Профессор">Пр.</abbr> Стивен Хокинг - физик-теоретик и космолог.</p>
+		</div>
+		<div class="sub-blocks">
+			<h3>Определения</h3>
+			<p><dfn>Черная дыра</dfn> - это область в прострнастве и времени и блаблабла.</p>
+		</div>
+		<div class="sub-blocks">
+			<h3>Информация о веб-дизайнере</h3>
+			<address>
+				<a href="mailto:kivthor@protonmail.com">kivthor@protonmail.com</a> <br>
+				г. Мордор, ул. Блаблабла
+			</address>
+		</div>
+		<div class="sub-blocks">
+			<h3>Индексы</h3>
+			<p>обычный текст с <sub>нижним индексом</sub></p>
+			<p>обычный текст с <sup>верхним индексом</sup></p>
+		</div>
+		<div class="sub-blocks">
+			<h3>Пометка изменений</h3>
+			<p>Когда ошибка исправлена, ее помечают тегом del, если найдена новая ошибка, то ее добавляют в список и помечают тегом ins. Элемент s позволяет обозначит, что информация устарела или ошибочна, но при этом ее не следует удалять из страницы.</p>
+			<p><del>Текст, который был удален в новой версии документа</del></p>
+			<p><ins datetime="2018.01.01.">Текст, которй был добавлен</ins></p>
+			<p>Ноутбук леново</p>
+			<s>Старая цена - 999999р</s>
+			<p>Новая цена - 20000р</p>
+		</div>
+		<div class="sub-blocks">
+			<h3>Преформатированный текст</h3>
+			<pre>Браузер сохраняет все пробелы
+				и переносы
+				внутри этого тега</pre>
+		</div>
+	</div>
+	<div id="g4" class="main-blocks"> <!--главный блок для раздела ССЫЛКИ И ИЗОБРАЖЕНИЯ-->
+		<h2>Ссылки и изображения</h2>
+		<div class="sub-blocks">
+			<h3>Ссылка (абсолютный адрес)</h3>
+			<a href="https://www.google.com" title="гугол">Ссылка на гугл</a>
+		</div>
+		<div class="sub-blocks">
+			<h3>Ссылка на файл и/или изображение</h3>
+			<a href="text/text.txt" target="_blank">Ссылка на текст</a>
+			<br>
+			<a href="images/C33CH.jpg" target="_blank">Cсылка на картинку</a>
+		</div>
+		<div class="sub-blocks">
+			<h3>Добавление изображения</h3>
+			<img src="images/tlen.jpg" alt="" width="300" height="184">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat atque quae voluptates fugiat aliquam laborum numquam possimus, blanditiis, at sunt veritatis, expedita itaque reprehenderit incidunt dolores laboriosam! Harum, autem ullam.</p>
+			<p><img src="images/tlen.jpg" alt="" width="300" height="184">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, aliquam excepturi perspiciatis dolore rem sit obcaecati officia minus nam ratione vero. Molestiae necessitatibus officiis unde adipisci alias voluptatibus deleniti ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p>Ea illum libero architecto quae iste blanditiis possimus suscipit repellendus ut eveniet maiores, sequi ab, rem laudantium asperiores aliquam fugit eius quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <img src="images/tlen.jpg" alt="" width="300" height="184">Eum saepe, praesentium enim officiis voluptas temporibus vel, id excepturi similique! Dolorem inventore ex quidem aspernatur dolore molestias nostrum, cupiditate est tempora! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis sint porro, sapiente itaque officiis! Quo assumenda quaerat velit asperiores fuga voluptatibus esse architecto nobis, voluptas optio vel cumque similique ratione. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus dicta adipisci consequuntur, ducimus vitae sint itaque qui animi veniam incidunt asperiores, quidem labore iure quod, aliquam doloremque voluptatibus eos similique. </p>
+		</div>
+		<div class="sub-blocks">
+			<h3>Добавление изображения с подписью</h3>
+			<figure>
+				<img src="images/C33CH-600X375.jpg" alt="serenity" width="600" height="375">
+					<figcaption>стоковое изображение</figcaption>
+			</figure>
+		</div>
+		<div class="sub-blocks">
+			<h3>Изображение-ссылка</h3>
+			<a href="https://cs4.pikabu.ru/images/big_size_comm/2016-07_6/146959827317952153.jpg" title="КОТЕГ" target="_blank">
+				<img src="images/cat.jpg" alt="котег" width="500" height="375">
+			</a>
+		</div>
+	</div>
+	<div id="g5" class="main-blocks"> <!--главный блок для раздела ТАБЛИЦЫ-->
+		<h2>Таблицы</h2>
+		<div class="sub-blocks">
+			<h3>Таблица №1</h3>
+			<table>
+				<thead>
+					<tr>
+						<th>0</th>
+						<th scope="col">Суббота</th>
+						<th scope="col">Воскресенье</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Продано билетов</th>
+						<td>120</td>
+						<td>135</td>
+					</tr>
+					<tr>
+						<th scope="row">Выручка</th>
+						<td>18000р</td>
+						<td>20000р</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td></td>
+						<td colspan="2">Со следующей недели скидки!</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</div>
+	<div id="g6" class="main-blocks"> <!--главный блок для раздела ФОРМЫ-->
+		<h2>Формы</h2>
+		<div class="sub-blocks">
+			<h3>Структура формы</h3>
+			<p>Все элементы формы помещаются в тег <span class="code-tag">&ltform&gt</span>. Для него должен быть указан атрибут <span class="code-atr">action</span>, а также method и id. Значением атрибута action является url-адрес страницы-получателя введеных данных при отправки формы на сервер. При использования метода get введенные данные будут добавлены в конец url-адреса, указанного в атрибуте action.</p>
+			get идеален для:
+			<ul>
+				<li>коротких форм (поле ввода для поиского запроса</li>
+				<li>при простом получении данных с веб-сервера(без отправки сведений, добавляемых в базу данных</li>
+			</ul>
+			<p>При ипользования метода post данные отправляются на сервер с помощью так называемых html-заголовков.</p>
+			post используется в случае, если форма:
+			<ul>
+				<li>Позволяет пользователям загружать файлы на сайт</li>
+				<li>Очень длинная</li>
+				<li>Содержит конфидециальные данные (пароли)</li>
+				<li>Добавляет сведения в базу данных или удаляет их оттуда</li>
+			</ul>
+			<p>Если атрибут method не указан, то форма будет отправлена на сервер с помощью метода get. Значения атрибута id используют для различения формы и других элементов разметки страницы. Зачастую этот атрибут используют для проверки заполнения всех обязательных полей формы.</p>
+		</div>
+		<div class="sub-blocks">
+			<h3>Ввод текста</h3>
+			<p>Элемент input используется для создания компонентов формы нескольких типов.<br>Значение атрибута type указывает этот тип. Когда атрибуту type присваевается значение text, это значит что будет создано однострочное поле ввода текста.<br>Атрибут maxlenght используют для ограничения количества символов.<br>Атрибут size использовали для установки ширины поля ввода текста (но лучше использовать CSS).<br>Значения атрибута name служат для идентификации элемента формы и отправляются на сервер вместе с введенными данными. Для каждого элемента формы нужно следует указывать данный атрибут.</p>
+			<p>Пример:</p>
+			<form action="https://www.primer.ru/login.php">
+				Имя пользователя: <input type="text" name="username" maxlenght="30">
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Ввод пароля</h3>
+			<p>Используется элемент input с атрибутом type равным password.</p>
+			<form action="https://www.primer.ru/login.php">
+				Логин:  <input type="text" name="username" size="15" maxlenght="30">
+				Пароль: <input type="password" name="password" size="15" maxlenght="30">
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Текстовая область</h3>
+			<p>Элемент textarea используется для создания многострочных областей ввода текста.<br>В отличии от предыдущих элементов форм, он не является пустым, то есть ему нужен закрывающий тег. Для настройки ширины и высоты области используются CSS.</p>
+			<form action="https://www.primer.ru/profile.php">
+				<p>Что выдумаете об этом выступлении?</p>
+				<textarea name="comments" cols="20" rows="10">Введите комментарий...</textarea>
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Переключатели</h3>
+			<p>Используется тег input. Позволяют выбрать только один вариант из предложенных.<br>Атрибут type равен radio.<br>Атрибут name отправляется на сервер вместе со значением выбранного переключателя. Когда ответ на вопрос подразумевает выбор одного из нескольких вариантов, все переключатели формирующие список ответов должны иметь одинаковое значение name.<br>Атрибут value устанавливает значение выбранного переключателя, отправляемое серверу. Значение каждого переключателя должно быть уникальным внутри группы.<br>Атрибут checked указывает какой, какой из предлагаемых вариантов должен быть выбран по умолчанию при загрузке страницы. Равен значению checked.</p>
+			<p>Пример:</p>
+			<form action="https://www.example.com/profile.php">
+				<p>Выберите любимый жанр музыки:</p>
+				<input type="radio" name="genre" value="rock" checked="checked">Рок
+				<input type="radio" name="genre" value="rap">Рэп
+				<input type="radio" name="genre" value="pop">Поп
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Флажки</h3>
+			<p>С помощью флажков можно выбирать несколько вариантов и даже отменять выбор. Используется тег input с type равным checkbox.<br>Атрибут name отправляется на сервер вместе со значением выбранных вариантов ответа. В данном случае значение name должно быть одинаковым для всех флажков группы.<br>Атрибут value указывает значение, отправляемое серверу при установке флажка, должно быть уникальным для каждого флажка.</p>
+			<p>Пример:</p>
+			<form action="https://www.example.com/profile.php">
+				<p>Где вы слушаете музыку?</p>
+				<input type="checkbox" name="service" value="home" checked="checked" />Дома
+				<input type="checkbox" name="service" value="inroad" />В дороге
+				<input type="checkbox" name="service" value="work" />На работе
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Раскрывающийся список</h3>
+			<p>Используется элемент select, который содержит два и более элементов option.<br> Атрибут name используется только в элементе select и определяет имя элемента формы, отправляемое на сервер вместе со значением, выбранным посетителем.<br>Элемент option используется для указания вариантов ответа, которые может выбрать юзер. Текст помещенный между откр. и закр. тегами option, будет выведен на экран как пункт раскрывающегося списка.<br>Атрибут value используется в элементе option для установки значения, отправляемого на сервер вместе с именем выбранного элемента.</p>
+			<p>Пример:</p>
+			<form action="https://www.example.com/profile.php">
+				<p>На каком устройстве вы любите слушать музыку?</p>
+				<select name="devices">
+					<option value="ipod">На айподе</option>
+					<option value="computer" selected="selected">На компьютере</option>
+					<option value="smarphone">На смартфоне</option>
+				</select>
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Список множественного выбора</h3>
+			<p>Используется элемент select с атрибутом size, значение которого должно быть количество пунктов списка, отображаемых за раз.<br>Атрибут multiple со значение multiple в элементе select позволит пользователям выбрать сразу несколько вариантов ответа.</p>
+			<p>Пример:</p>
+			<form action="https://www.example.com/profile.php">
+				<p>Играете ли вы на каком либо инструментах, перечисленных ниже?</p>
+				<select name="instruments" size="3" multiple="multiple">
+					<option value="guitar">Гитара</option>
+					<option value="piano" selected="selected">Пианино</option>
+					<option value="drums">Ударные</option>
+					<option value="tube">Труба</option>
+					<option value="flute">Флейта</option>
+				</select>
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Загрузка файлов на сервер</h3>
+			<p>Используется элемент input с атрибутом type равным file.<br>При создании формы позволяющей загружать файлы на сервер нужно всегда использовать метод post.</p>
+			<p>Пример:</p>
+			<form action="https://www.example.com/download.php" method="post">
+				<p>Загрузите свою песню в формате MP3:</p>
+				<input type="file" name="song">
+				<input type="submit" name="song-download" value="Загрузить">
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Кнопка подтверждения</h3>
+			<p>Используется элемент input с атрибутом type равным submit.<br>Атрибут value в элементе input используется для указания текста надписи на кнопке.<br>Атрибут name не обязателен.</p>
+			<p>Пример:</p>
+			<form action="https://www.example.com/subscribe.php">
+				<p>Подпишитесь на нашу рассылку новостей</p>
+				<input type="text" name="email">
+				<input type="submit" name="subscribe" value="Подписаться">
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Графическая кнопка</h3>
+			<p>Используется элемент input с атрибутом  type равным image (вместо submit).<br>Используются те же атрибуты что и для элемента img: src, alt, width и height.</p>
+			<p>Пример:</p>
+			<form action="https://www.example.com/subscribe.php">
+				<p>Подпишитесь на нашу рассылку новостей</p>
+				<input type="text" name="email">
+				<input type="image" name="subscribe" src="images/Free-Sleek-Red-YouTube-Subscribe-button-by-AlfredoCreates.png" width="100" height="36">
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Кнопки и скрытые элементы формы</h3>
+			<p>Используется элемент button который позволяет получить более полный контроль над внешним видом кнопок, а так же сделать возможным появление внутри кнопок других элементов.<br>Это значит, что теперь можно сочетать на кнопке текст и изображение, располагая их между откр. и закр. тегами button. Элемент input с атрибутом type равном hidden становится скрытым на страницу. Это позволяет размещать в форме данные, невидимые посетителям.<br>Например в скрытом поле можно сохранить информацию о том, с какой страницы посетитель отправил форму на сервер.</p>
+			<p>Пример:</p>
+			<form action="https://www.example.com/add.php" method="post">
+				<p>Загрузите песню в формате mp3:</p>
+				<input type="file" name="song2">
+				<button type="submit">
+					<img src="images/add.gif" alt="add" width="10" height="10">
+					добавить
+				</button>
+				<input type="hidden" name="hidfiled" value="bookmark">
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Метки элементов формы</h3>
+			<p>У каждого элемента формы должна быть своя подпись или метка, создаваемая с помощью элемента label и упрощающая пользование сайтом людям с нарушениями зрения.</p>
+			<p>Элемент label можно использовать двумя способами:</p>
+				<ul>
+					<li>Окружить им и метку и сам элемент формы.</li>
+					<li>Указать отдельно от элемента формы, но при этом использовать атрибут for для соотнесения с нужным элементом.</li>
+				</ul>
+			<form action="https://www.example.com/profile.php">
+				<label>Ваш возраст: <input type="text" name="age"></label>
+				<br>
+				Ваш пол:
+				<input id="male" type="radio" name="sex" value="man">
+				<label for="male">Муж</label>
+				<input id="female" type="radio" name="sex" value="woman">
+				<label for="female">Жен</label>
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Группировка элементов формы</h3>
+			<p>Элементы форм, связанные по смыслу, можно группировать между откр. и закр. тегами элемента fieldset.<br>Элемент legend содержит надпись для обозначения группы элементов формы. Как правило его ставят сразу после откр. тега fieldset.</p>
+			<p>Пример:</p>
+			<form action="https://www.example.com/profile.php">
+				<fieldset>
+					<legend>Контактная информация</legend>
+					<label for="imya">Имя:</label><br>
+					<input id="imya" type="text" name="username"><br>
+					<label for="familia">Фамилия:</label><br>
+					<input id="familia" type="text" name="userlastname"><br>
+					<label for="email1">Адрес электронной почты:</label><br>
+					<input id="email1" type="email" name="pochta"><br>
+					<input type="submit" name="subbb" value="Отправить">
+				</fieldset>
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Валидация данных формы</h3>
+			<p>Валидация позволяет гарантировать, что пользователь введет данные в формате, с которым сможет работать сервер.</p>
+			<p>Она позволяет:</p>
+			<ul>
+				<li>уменьшить кол-во операций, выполняемых сервером;</li>
+				<li>увидеть пользователям ошибки в заполнении формы быстрее, чем если бы подобная проверка совершалась на сервере</li>
+			</ul>
+			<p>Примером встроенной системы проверки заполненных данных может служить атрибут required со значением required.</p>
+			<p>Пример:</p>
+			<form action="https://www.example.com/profile.php" method="post">
+				<label for="username2">Имя пользователя:</label><br>
+				<input id="username2" type="text" name="username" size="30" required="required"><br>
+				<label for="password2">Пароль:</label><br>
+				<input id="password2" type="password" name="parol" size="30" required="required">
+				<input type="submit" name="send" value="Отправить">
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Ввод даты, URL и электронной почты</h3>
+			<p>Для ввода даты используется элемент input с атрибутом type равном date. Атрибут method равен post.<br>
+			Для создания поля ввода url и email используют элемент input c атрибутом type равном url или emal, соответственно.</p>
+			<p>Пример:</p>
+			<form action="https://www.example.com/departure.php" method="post">
+				<label for="dep-date">Дата вылета:</label>
+				<input id="dep-date" type="date" name="datadep"><br>
+				<label for="milo">Оставьте адрес вашей электронной почты:</label><br>
+				<input id="milo" type="email" name="pochta2"><br>
+				<label for="siteadr">Введите адрес вашего сайта:</label><br>
+				<input id="siteadr" type="url" name="sait"><br>
+				<input type="submit" name="send" value="Отправить">
+			</form>
+		</div>
+		<div class="sub-blocks">
+			<h3>Поле ввода поиского запроса</h3>
+			<p>Используется элемент input с type равном search.<br>С любым полем ввода можно использовать атрибут placeholder, значением которого является текст, отображаемый в поле до того, как пользователь введет свой запрос.</p>
+			<p>Пример:</p>
+			<form action="https://www.example.com/search.php" method="get">
+				<label for="search1">Поиск: </label>
+				<input id="search1" type="search" name="poisk" placeholder="Купить кота">
+				<input type="submit" value="Искать">
+			</form>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+	<div id="g7" class="main-blocks"> <!--главный блок для раздела ВИДЕО И АУДИО-->
+		<h2>Видео и аудио</h2>
+		<div class="sub-blocks">
+			<h3>Добавление видео</h3>
+			<p>Используется элемент video с атрибутами:</p>
+			<ul>
+				<li>src - значение: url адрес видеофайла</li>
+				<li>poster - позволяет установить изображение, пока видео не запущено</li>
+				<li>width, height</li>
+				<li>preload - указывает браузеру, что нужно делать с видео при загрузке страницы, принимает следующие значения:
+					<ol>
+						<li>none - видео не загружается, пока юзер не нажмет на Воспроизведение</li>
+						<li>auto - видео загружается по окончании загрузки страницы</li>
+						<li>metadata - браузер должен лишь собрать метаданые о видео</li>
+					</ol>
+				</li>
+				<li>controls - браузер предоставляет собственные элементы управления воспроизведением</li>
+				<li>autoplay</li>
+				<li>loop</li>
+			</ul>
+			<p>Пример:</p>
+			<video src="video/jojo.mp4" poster="images/poster2.jpg" width="640" height="360" preload="auto" controls>
+				<p>Шо за дичь</p>
+			</video>
+		</div>
+		<div class="sub-blocks">
+			<h3>Несколько источников видео</h3>
+			<p>Используется элемент source с атрибутами src, type равном формату видео.</p>
+			<p>Пример:</p>
+			<video poster="images/poster.jpg" width="640" height="360" preload="auto" controls>
+				<source src="video/ogr.webm" type='video/webm; codecs="vp8, vorbis"'>
+				<source src="video/ogr.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+				<p>Шо за дичь</p>
+			</video>
+		</div>
+		<div class="sub-blocks">
+			<h3>Добавление аудио</h3>
+			<p>Используется элемент audio с атрибутами:</p>
+			<ul>
+				<li>preload - указывает браузеру, что нужно делать с аудио при загрузке страницы</li>
+				<li>controls - браузер предоставляет собственные элементы управления воспроизведением</li>
+				<li>autoplay</li>
+				<li>loop</li>
+			</ul>
+			<p>Используется элемент source с атрибутами src равном адресу местоположения аудиофайла.</p>
+			<p>Пример:</p>
+			<audio preload="auto" controls>
+				<source src="audio/snk.mp3">
+				<p>титаны отакуе</p>
+				</audio>
+		</div>
+	</div>
+	<footer>
+		<p class="foot">П О Ш Е Л Н А Х У Й</p>
+	</footer>
+</body>
+</html>
